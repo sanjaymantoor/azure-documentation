@@ -14,9 +14,9 @@
 
 | Sl.No   |  Scenario  | Expected   | Result   |
 | ------------ | ------------ | ------------ | ------------ |
-|  1  |  Accessing admin console. </br> Default NSG rule. | Access denied. Connection timed out  |  :tw-2705: |
-|  2  |Accessing admin console </br> Default NSG rule + public ip entry   | Admin console should be accessible   |  :tw-2705:  |
-|  3 | Accessing T3 connection to admin server</br> Default NSG rule  | Unreachable   |   :tw-2705: |
-|  4 | Accessing T3 connection to admin server</br> Default NSG rule  + public ip entry  | Accessible   |   :tw-2705: |
+|  1  |  Accessing admin console. </br> Default NSG rule. | Access denied. Connection timed out  |  :heavy_check_mark: |
+|  2  |Accessing admin console </br> Default NSG rule + public ip entry   | Admin console should be accessible   |  :heavy_check_mark:  |
+|  3 | Accessing T3 connection to admin server</br> Default NSG rule  | Unreachable   |   :heavy_check_mark: |
+|  4 | Accessing T3 connection to admin server</br> Default NSG rule  + public ip entry  | Accessible   |   :heavy_check_mark: |
 
 
