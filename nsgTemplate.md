@@ -47,6 +47,12 @@
 |  7 | Accessing managed server 8001 port using weblogic/ready /br> Default NSG rule + public ip entry   | Accessible   |   :heavy_check_mark: |
 |  8 | Accessing T3 connection  to 8001 port <br> Default NSG rule    | Unreachable   |   :heavy_check_mark: |
 |  9 | Accessing T3 connection  to 8001 port <br> Default NSG rule + public ip entry   | Accessible   |   :x: |
+|  10 | Accessing T3 connection with managed server channel port 8501 <br> Default NSG rule    | Unreachable   |   :heavy_check_mark: |
+|  11 | Accessing T3 connection with managed server channel port 8501 <br> Default NSG rule + public ip entry    | Accessible   |   :heavy_check_mark: |
+|  12 | Accessing deployed application using managed server port 8001 <br> Default NSG rule + public ip entry    | Accessible   |   :heavy_check_mark: |
+|  13 | Accessing deployed application using managed server channel port 8501 <br> Default NSG rule + public ip entry    | Accessible   |   :heavy_check_mark: |
+
+
 
 
 
