@@ -91,3 +91,14 @@ For Dynamic cluster appgateway is not applicable, hence NSG rules will be remove
 NodeManager port exposure is not required, hence no NSG rule is implemented. </br>
 ##### 4) Testing with CI/CD pipe line using NSG rules
 Working on it
+
+## ARM Templates Location
+##### Admin Only 
+https://github.com/sanjaymantoor/arm-oraclelinux-wls-admin/blob/nsg-test/src/main/arm/mainTemplate.json
+
+##### Static Cluster
+https://github.com/sanjaymantoor/arm-oraclelinux-wls-cluster/blob/nsg-test/arm-oraclelinux-wls-cluster/src/main/arm/mainTemplate.json
+
+##### Dynamic Cluster
+https://github.com/sanjaymantoor/arm-oraclelinux-wls-dynamic-cluster/blob/nsg-test/arm-oraclelinux-wls-dynamic-cluster/src/main/arm/mainTemplate.json
+
