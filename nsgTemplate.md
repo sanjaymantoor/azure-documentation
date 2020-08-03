@@ -9,7 +9,7 @@
 |  AppGatewayHTTPSPort | 80,443  | All public access </br> sourceAddressPrefix : \*</br> destinationAddressPrefix: \*</br>  |
 
 ### Test Scenarios
-•	NSG Rule 105 – Needs to be removed 7001 port from deny
+•	NSG Rule 105 – Needs to be removed 7001 port from deny </br>
 •	For t3 access, need to try without VPN
 
 | Sl.No   |  Scenario  | Expected   | Result   |
