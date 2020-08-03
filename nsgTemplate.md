@@ -80,3 +80,18 @@
 |  8 | Accessing T3 connection  to managed server port 8002/8003 port <br> Default NSG rule  + public ip entry   | Accessible   |   :heavy_check_mark: |
 |  9 | Accessing deployed application through managed server port <br> Default NSG rule  + public ip entry   | Accessible   |   :heavy_check_mark: |
 
+
+## Discussed Items
+#1	portsToExpose </br>
+ARM template accepts inputs for ports to be exposed. This inputs are accepted at Azure market place GUI. At this moment this argument is not handled, as already mentioned ports ar handled as part of above NSG rules. </br>
+#2  Appgateway ports enablement 
+Does appgateway ports 80,443 and 65200-65535 should be exposed only if appgateway is selected? </br>
+For Dynamic cluster appgateway is not applicable, hence NSG rules will be removed
+#3 NodeManager port connection
+NodeManager port exposure is not required, hence no NSG rule is implemented. </br>
+#4 Testing with CI/CD pipe line using NSG rules
+Working on it
+
+
+
+
