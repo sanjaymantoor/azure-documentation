@@ -100,5 +100,4 @@ https://github.com/sanjaymantoor/arm-oraclelinux-wls-admin/blob/nsg-test/src/mai
 https://github.com/sanjaymantoor/arm-oraclelinux-wls-cluster/blob/nsg-test/arm-oraclelinux-wls-cluster/src/main/arm/mainTemplate.json
 
 ##### Dynamic Cluster
-https://github.com/sanjaymantoor/arm-oraclelinux-wls-dynamic-cluster-nsg/blob/nsg-test
-
+https://github.com/sanjaymantoor/arm-oraclelinux-wls-dynamic-cluster-nsg/blob/nsg-test/arm-oraclelinux-wls-dynamic-cluster
